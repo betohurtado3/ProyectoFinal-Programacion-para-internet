@@ -1,0 +1,58 @@
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.cajas {
+    width: calc(20% - 30px);
+    margin: 20px;
+    height: auto;
+    background: rgb(222, 222, 222);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.con-cajas {
+    display: inline-table;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    margin: 1px;
+    align-items: center;
+    text-align: center;
+    padding-left: 25%;
+    font-size: 20;
+}
+
+.menu li {
+    margin: 5px;
+    padding: 10px;
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: rgb(222, 222, 222);
+    border-left: 10px solid blue;
+
+}
+
+.menu li a:hover {
+    color: #CF0;
+    background-color: darkblue;
+    border-left-color: #ff9d7e;
+}
+
+.List {
+    padding-left: 32%;
+}
